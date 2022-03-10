@@ -1,0 +1,83 @@
+.container {
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.inputElement input {
+  width: 100%;
+}
+
+.errorText {
+  margin-top: 5px;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.socialMedia a {
+  text-decoration: none;
+  color: white;
+}
+
+.toph3 {
+  margin-bottom: 30px;
+}
+.bottomh3 {
+  margin-top: 30px;
+}
+
+.allIcons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.individualIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  transition: 0.2s all;
+}
+.individualIcon:hover {
+  transform: scale(1.1);
+}
+
+.textarea {
+  height: 115px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    font-size: 12px;
+    text-align: center;
+  }
+}

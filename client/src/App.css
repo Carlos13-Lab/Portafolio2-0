@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Gamer";
+  src: url("./fonts/PressStart2P-Regular.ttf");
+}
+
+body {
+  font-family: "Gamer" !important;
+  background-color: #212529 !important;
+}
+
+.allContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+}

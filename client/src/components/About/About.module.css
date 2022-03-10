@@ -1,0 +1,121 @@
+.container {
+  width: 80% !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutDiv {
+  height: 100%;
+  display: flex;
+}
+
+.belowDiv {
+  flex-direction: column;
+  align-items: center;
+}
+
+.belowDiv h1 {
+  margin-bottom: 30px;
+}
+
+.belowDiv img {
+  width: 50px;
+  height: 50px;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
+}
+
+.myPixelArt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 30%;
+}
+
+.myPixelArt img {
+  border: 2px solid #fefefe;
+  box-shadow: 5px 5px 0 #ebebeb, -5px -5px 0 #ebebeb, -15px 7px 5px #000,
+    -7px 15px 5px #000;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.myPixelArt p {
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-shadow: -5px 5px #000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.description p {
+  text-shadow: -5px 5px #000;
+}
+
+.frontEndDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 55px;
+}
+
+.backEndDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 30px;
+  transition: 0.2s all;
+}
+
+.Item:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width:1000px) {
+  .aboutDiv {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .description a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:460px) { 
+  .me {
+    width: 150px;
+    height: 150px;
+  }
+  .description {
+    text-align: center;
+  }
+}
