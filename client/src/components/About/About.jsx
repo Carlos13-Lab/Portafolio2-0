@@ -12,7 +12,7 @@ import Postgresql from "../../img/postgresql.svg";
 import Mongodb from "../../img/mongodb.svg";
 import Express from "../../img/express.svg";
 import Sequelize from "../../img/sequelize.svg";
-import CV from "../../resume/AxelLoisCV.pdf";
+import CV from "../../resume/AxelLoisResume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 
