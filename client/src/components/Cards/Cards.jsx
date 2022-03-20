@@ -12,10 +12,10 @@ let projects = [
   },
   {
     name: "Contablito",
-    description: "Javascript Vanilla crud app with LocalStorage",
-    deploymentLink: "https://axel-lois.github.io/Contablito-V2/",
-    codeLink: "https://github.com/axel-lois/Contablito-V2",
-    img: "https://user-images.githubusercontent.com/82421661/157135015-9646a933-cf33-4f11-8bbc-f1cc77cadbcd.png",
+    description: "FullStack crud app made with MERN stack.",
+    deploymentLink: "https://contablito-v3.vercel.app",
+    codeLink: "https://github.com/axel-lois/Contablito-V3",
+    img: "https://user-images.githubusercontent.com/82421661/159184688-eba6eade-48c6-429f-b538-09b4890e4abc.png",
   },
   {
     name: "WeatherApp",
