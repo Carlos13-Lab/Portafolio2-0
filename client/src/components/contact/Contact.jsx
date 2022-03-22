@@ -73,7 +73,7 @@ const Contact = () => {
         </h3>
         <div className={Classes.allIcons}>
           <a
-            href="https://www.linkedin.com/in/axel-lois-740ba392/"
+            href="https://www.linkedin.com/in/axel-lois-dev/"
             target={"_blank"}
           >
             <div className={Classes.individualIcon}>
