@@ -1,5 +1,14 @@
 .container {
   width: 80%;
+  margin: 0 auto;   /* centrar el contenedor */
+  padding: 20px;    /* un poco de espacio interno */
+  box-sizing: border-box;
+}
+
+.flexRow {
+  display: flex;
+  width: 100%;
+  gap: 5%;
 }
 
 .form {
@@ -15,15 +24,22 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 5px 0;
+  margin: 10px 0; /* un poco más de espacio vertical */
 }
 
-.inputElement input {
+.inputElement input,
+.inputElement textarea {
   width: 100%;
+  box-sizing: border-box;
 }
 
+/* Mensajes de error más discretos */
 .errorText {
-  margin-top: 5px;
+  margin-top: 4px;
+  font-size: 0.85rem; /* tamaño de fuente más pequeño */
+  line-height: 1.2;
+  text-align: left;   /* o 'center' si prefieres */
+  color: #ff4d4d;     /* un rojo menos intenso que pure "red" */
 }
 
 .socialMedia {
@@ -31,25 +47,27 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
+
 }
+
 .socialMedia a {
   text-decoration: none;
   color: white;
 }
 
 .toph3 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
+
 .bottomh3 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .allIcons {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .individualIcon {
@@ -58,16 +76,20 @@
   justify-content: center;
   align-items: center;
   margin: 0 10px;
-  transition: 0.2s all;
+  transition: transform 0.2s ease-in-out;
 }
+
 .individualIcon:hover {
   transform: scale(1.1);
 }
 
 .textarea {
-  height: 115px;
+  min-height: 100px; /* ajusta si quieres más o menos alto */
+  resize: vertical;  /* permitir agrandar o encoger verticalmente */
+  font-family: inherit; /* para mantener la misma fuente */
 }
 
+/* Responsividad: reducir fuente en pantallas medianas */
 @media screen and (max-width: 800px) {
   .container {
     font-size: 15px;
@@ -75,9 +97,14 @@
   }
 }
 
+/* Responsividad: reducir fuente aún más en pantallas pequeñas */
 @media screen and (max-width: 600px) {
   .container {
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
+  }
+
+  .inputElement {
+    margin: 8px 0; /* un poco menos de espacio para pantallas muy pequeñas */
   }
 }

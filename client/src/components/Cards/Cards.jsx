@@ -17,20 +17,6 @@ let projects = [
     codeLink: "https://github.com/axel-lois/Contablito-V3",
     img: "https://user-images.githubusercontent.com/82421661/159184688-eba6eade-48c6-429f-b538-09b4890e4abc.png",
   },
-  {
-    name: "WeatherApp",
-    description: "A simple React-app WeatherApp using OpenWeather api.",
-    deploymentLink: "https://axel-lois.github.io/Weather-App-V1/",
-    codeLink: "https://github.com/axel-lois/Weather-App-V1/tree/Code",
-    img: "https://user-images.githubusercontent.com/82421661/157134373-ab428272-3e6a-48fc-b3ff-7a8c662cfd18.png",
-  },
-  {
-    name: "PomodoroApp",
-    description: "Flexible and easy to use React pomodoro timer app",
-    deploymentLink: "https://axel-lois.github.io/Pomodoro-App/",
-    codeLink: "https://github.com/axel-lois/Pomodoro-App/tree/Code",
-    img: "https://user-images.githubusercontent.com/82421661/157135671-3870e393-764b-4e83-aef8-cfe00845dfe9.png",
-  },
 ];
 
 const Cards = () => {

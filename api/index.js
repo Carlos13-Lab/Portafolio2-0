@@ -25,6 +25,7 @@ server.post("/send", (req, res) => {
   sgMail.send(msg, (err, info) => {
     if (err) console.log(err);
     else {
+      console.log(info)
       console.log("Email sent successfully.");
       res.send("Email sent successfully.");
     }

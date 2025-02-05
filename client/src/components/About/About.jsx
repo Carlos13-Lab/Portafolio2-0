@@ -4,14 +4,14 @@ import Me from "../../img/me.png";
 import Node from "../../img/nodejs.svg";
 import Javascript from "../../img/javascript.svg";
 import Reactjs from "../../img/react.svg";
-import Redux from "../../img/redux.svg";
-import Html from "../../img/html.svg";
-import Css from "../../img/css.svg";
-import Bootstrap from "../../img/bootstrap.svg";
-import Postgresql from "../../img/postgresql.svg";
-import Mongodb from "../../img/mongodb.svg";
-import Express from "../../img/express.svg";
-import Sequelize from "../../img/sequelize.svg";
+import Angular from "../../img/angular.svg";
+import Flux from "../../img/flux.svg";
+import Kubernetes from "../../img/kubernetes.svg";
+import Java from "../../img/java.svg";
+import NextJs from "../../img/nextjs.svg";
+import Typescript from "../../img/typescript.svg";
+import Docker from "../../img/docker.svg";
+import Golang from "../../img/golang.svg";
 import CV from "../../resume/AxelLoisResume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
@@ -27,8 +27,8 @@ const About = () => {
         <div className={Classes.description}>
           <p>
             Hi! My name is Axel. I am a passionate Full-stack (Back-end
-            oriented) developer from Uruguay. I consider myself a fluent
-            Javascript developer, nevertheless I am open to learning new
+            oriented) engineer from Uruguay. I consider myself a fluent
+            Javascript engineer, nevertheless I am open to learning new
             languages. Apart from coding, I also like playing video-games and
             basketball.
           </p>
@@ -52,16 +52,13 @@ const About = () => {
             React
           </div>
           <div className={Classes.Item}>
-            <img src={Redux} /> Redux
+            <img src={Angular} /> Angular
           </div>
           <div className={Classes.Item}>
-            <img src={Html} /> Html
+            <img src={NextJs} /> NextJs
           </div>
           <div className={Classes.Item}>
-            <img src={Css} /> Css
-          </div>
-          <div className={Classes.Item}>
-            <img src={Bootstrap} /> Bootstrap
+            <img src={Typescript} /> Typescript
           </div>
         </div>
         <h3>Back-end</h3>
@@ -70,20 +67,24 @@ const About = () => {
             <img src={Node} /> Node
           </div>
           <div className={Classes.Item}>
-            <img src={Postgresql} />
-            PostgreSQL
+            <img src={Docker} />
+            Docker
           </div>
           <div className={Classes.Item}>
-            <img src={Mongodb} />
-            MongoDB
+            <img src={Kubernetes} />
+            Kubernetes
           </div>
           <div className={Classes.Item}>
-            <img src={Sequelize} />
-            Sequelize
+            <img src={Flux} />
+            Flux
           </div>
           <div className={Classes.Item}>
-            <img src={Express} />
-            Express
+            <img src={Golang} />
+            Golang
+          </div>
+          <div className={Classes.Item}>
+            <img src={Java} />
+            Java
           </div>
         </div>
       </div>
