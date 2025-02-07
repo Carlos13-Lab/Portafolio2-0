@@ -26,11 +26,13 @@ const About = () => {
         </div>
         <div className={Classes.description}>
           <p>
-            Hi! My name is Axel. I am a passionate Full-stack (Back-end
-            oriented) engineer from Uruguay. I consider myself a fluent
-            Javascript engineer, nevertheless I am open to learning new
-            languages. Apart from coding, I also like playing video-games and
-            basketball.
+            Hi! I'm Axel, an experienced Software Engineer specializing in
+            building scalable and resilient systems. I thrive in designing and
+            developing robust architectures, leveraging the right technologies
+            to achieve performance, reliability, and maintainability. While I
+            have deep expertise in JavaScript, I adapt quickly to any tech stack
+            necessary to solve complex problems efficiently. Beyond coding, I
+            enjoy playing video games and basketball.
           </p>
           <a href={CV} download className="nes-btn is-primary">
             <FontAwesomeIcon size="2x" icon={faFileArrowDown} /> Download resume
