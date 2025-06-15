@@ -91,7 +91,7 @@ const Contact = () => {
         </h3>
         <div className={Classes.allIcons}>
           <a
-            href="https://www.linkedin.com/in/axel-lois-dev/"
+            href="https://www.linkedin.com/in/carlosdiazdeveloper/"
             target="_blank"
             rel="noreferrer"
           >
@@ -101,7 +101,7 @@ const Contact = () => {
             </div>
           </a>
           <a
-            href="https://github.com/axel-lois"
+            href="https://github.com/Carlos13-Lab"
             target="_blank"
             rel="noreferrer"
           >

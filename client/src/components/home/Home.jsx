@@ -15,8 +15,8 @@ const Home = () => {
       className={`${Classes.container} nes-container is-rounded is-dark`}
     >
       <div>
-        <h1 className={Classes.title_primary}>Axel Lois</h1>
-        <h2 className={Classes.title_secondary}>Full Stack Engineer</h2>
+        <h1 className={Classes.title_primary}>Carlos Diaz</h1>
+        <h2 className={Classes.title_secondary}>Full Stack Developer</h2>
         <h2
           className={`${Classes.title_tertiary} nes-pointer ${Classes.flash}`}
         >

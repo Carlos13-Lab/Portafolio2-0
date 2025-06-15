@@ -6,16 +6,16 @@ let projects = [
   {
     name: "PokemonApp",
     description: "Full-stack pokemon crud app for pokemon-lovers.",
-    deploymentLink: "https://pokemon-app-rose.vercel.app",
-    codeLink: "https://github.com/axel-lois/Pokemon-App",
-    img: "https://user-images.githubusercontent.com/82421661/157132300-f24ac194-7b2c-493f-a17e-c1b1fe8e706c.png",
+    deploymentLink: "https://pokemonclient-dun.vercel.app",
+    codeLink: "https://github.com/Carlos13-Lab/Pokemon-App",
+    img: "https://i.ibb.co/gD4LdHp/Pokemon.png",
   },
   {
-    name: "Contablito",
-    description: "FullStack crud app made with MERN stack.",
-    deploymentLink: "https://contablito-v3.vercel.app",
-    codeLink: "https://github.com/axel-lois/Contablito-V3",
-    img: "https://user-images.githubusercontent.com/82421661/159184688-eba6eade-48c6-429f-b538-09b4890e4abc.png",
+    name: "Interact",
+    description: "Platform for administration of courses, qualifications, events, classes and users of an educational institution.",
+    deploymentLink: "https://c5-31.vercel.app",
+    codeLink: "https://github.com/Carlos13-Lab/C5-31",
+    img: "https://i.ibb.co/dGWTsSD/interact.png",
   },
 ];
 
